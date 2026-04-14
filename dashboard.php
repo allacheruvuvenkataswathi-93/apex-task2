@@ -53,6 +53,7 @@ $result = $conn->query($sql);
 <body>
 
 <h2>Welcome <?php echo $_SESSION['user']; ?></h2>
+echo "Role: " . $_SESSION['role'];
 
 <a href="add_post.php">Add Post</a> | 
 <a href="logout.php">Logout</a>
